@@ -1,5 +1,5 @@
 {% set name = "citation-compass" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/citation_compass-{{ version }}.tar.gz
-  sha256: b93c0424c803df7f5b63c85e22e76db322c6d0c1cb0db730aa705d9da69ccc3d
+  sha256: 0eb89118d27410d2f37a5828ac575f3a1fe1eaaf4cf2499a9a6036e40bc31fdd
 
 build:
   noarch: python
