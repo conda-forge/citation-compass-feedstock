@@ -1,13 +1,13 @@
 {% set name = "citation-compass" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/citation_compass-{{ version }}.tar.gz
-  sha256: 0882d4d08f7927ebf3dfd3210c62736616c31d0ec4fe9ca80ddea0359d0ca6c4
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/citation_compass-{{ version }}.tar.gz
+  sha256: 1bbabf49548ef8a35f723b6605b97f92c2c321f668d16e971915aff664106efb
 
 build:
   noarch: python
